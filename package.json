@@ -8,9 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node build/test.js --target es6",
     "createAccount": "tsc && node build/createAccount.js --target es6",
-    "addBalance": "tsc && node build/addBalance.js --target es6"
+    "addBalance": "tsc && node build/addBalance.js --target es6",
     "getBalance": "tsc && node build/getBalance.js --target es6"
-
   },
   "author": "",
   "license": "ISC",
