@@ -6,7 +6,7 @@ const cpf: number = Number(process.argv[5]);
 const date: any = process.argv[6];
 const fileName = 'users.json'
 
-type user = {
+export type user = {
   name: string,
   cpf: number;
   date: moment.Moment,
