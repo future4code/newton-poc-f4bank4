@@ -1,0 +1,19 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "module": "system",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createAccount": "tsc && node build/createAccount.js --target es6",
+    "addBalance": "tsc && node build/addBalance.js --target es6",
+    "getBalance": "tsc && node build/getBalance.js --target es6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "moment": "^2.24.0"
+  }
+}
